@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #c0c0c0;
+  --dark-blue: #0a0a23;
+}
+
+body {
+  background-color: var(--dark-blue);
+  color: var(--light-gray);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+h1 {
+  font-size: 2 rem;
+  margin: 15px 0;
+  text-align: center;
+}
+
+#change-due {
+  text-align: center;
+  font-size: 1.1 rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: center;
+  margin: 10px 0 10px;
+}
+.price-screen {
+  border: 10px solid var(--light-gray);
+  background-color: black;
+  height: 50px;
+  width: 150px;
+  margin-left: -30px;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#cash-in-drawer {
+  font-size: 1.0rem;
+  text-align: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#change {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.connector {
+  margin-right: 15px;
+  background-color: var(--light-gray);
+  height: 30px;
+  width: 40px;
+}
+
+.cash-drawer-display {
+  font-size: 1.1rem;
+  background-color: white;
+  width: 150%;
+  height: 300%;
+  color: black;
+  padding: 10px;
+  border: 10px solid var(--light-gray);
+  border-radius: 10px;
+}
