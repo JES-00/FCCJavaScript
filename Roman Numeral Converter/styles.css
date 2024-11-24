@@ -1,0 +1,65 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+body {
+  background-color: #13113d;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+h1 {
+  color: white;
+  margin: 10px 0;
+  font-family: Times New Roman, serif;
+}
+
+.input-container {
+  background-color: gray;
+  margin: auto 25px;
+  text-align: center;
+  padding: auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+.fieldset {
+  border: 0 none;
+  height: 100%;
+  padding: 25px;
+  margin: 10px 20px;
+}
+
+#number {
+  width: 50%
+}
+
+#convert-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 20px;
+  width: 50%;
+  border: 2px solid gray;
+}
+
+#output {
+  background-color: gray;
+  padding: 15px;
+  width: 90%;
+  overflow-wrap: break-word;
+  text-align: center;
+  max-width: 400px;
+  margin-top: 25px;
+  border: 2px solid white;
+}
